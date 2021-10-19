@@ -1,0 +1,31 @@
+{
+  "name": "php",
+  "displayName": "php",
+  "publisher": "tal7aouy",
+  "description": "Snippet pack for developers to speed up programming with PHP!",
+  "version": "1.0.0",
+  "keywords": [
+    "PHPstorm",
+    "PHP",
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tal7aouy/php-snippets-for-vscode.git"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.61.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

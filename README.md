@@ -1,5 +1,12 @@
 # PHP snippets
 
+[![Version](https://vsmarketplacebadge.apphb.com/version/tal7aouy.php.svg)](https://marketplace.visualstudio.com/items?itemName=tal7aouy.php)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/tal7aouy.php.svg)](https://marketplace.visualstudio.com/items?itemName=tal7aouy.php)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating/tal7aouy.php.svg)](https://marketplace.visualstudio.com/items?itemName=tal7aouy.php)
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/4f02368ebeb7be1490bb/maintainability)](https://codeclimate.com/github/php/php/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/4f02368ebeb7be1490bb/test_coverage)](https://codeclimate.com/github/php/php/test_coverage)
+
 ## VS Code PHP snippets
 
 ---
@@ -47,6 +54,12 @@ Below is a list of all available snippets and the triggers of each one. The ⇥ 
 |      `thr⇥` | `throw new $0` throw an exception                                        |
 |       `ns⇥` | `namespace App;` namespace `App` is an example                           |
 |       `mt⇥` | `match($ex) {...}` match expression                                      |
+|        `G⇥` | `$_GET['var']` $\_GET Superglobal                                        |
+|        `P⇥` | `$_POST['var']` $\_POST Superglobal                                      |
+|       `SE⇥` | `$_SERVER['var']` $\_SERVER Superglobal                                  |
+|     `SESS⇥` | `$_SESSION['var']` $\_SESSION Superglobal                                |
+|      `REQ⇥` | `$_REQUEST['var']` $\_REQUEST Superglobal                                |
+|       `FI⇥` | `$_FILE['var']['name']` $\_FILE Superglobal                              |
 
 ## Issues & Suggestions
 

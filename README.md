@@ -7,10 +7,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/4f02368ebeb7be1490bb/maintainability)](https://codeclimate.com/github/php/php/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/4f02368ebeb7be1490bb/test_coverage)](https://codeclimate.com/github/php/php/test_coverage)
 
-## VS Code PHP snippets
-
----
-
 This extension contains code snippets for [Vs Code][code] editor (supports PHP).
 
 ## Installation

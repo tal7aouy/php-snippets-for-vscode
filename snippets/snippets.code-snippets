@@ -99,5 +99,40 @@
     "prefix": "mt",
     "body": ["match($0) {\n$1 => $2\n};"],
     "description": "match expression"
+  },
+  "def": {
+    "prefix": "def",
+    "body": ["define($0,$1);"],
+    "description": "define your constant"
+  },
+  "G": {
+    "prefix": "G",
+    "body": ["$_GET[$0];"],
+    "description": "PHP Superglobal $_GET"
+  },
+  "P": {
+    "prefix": "P",
+    "body": ["$_POST[$0];"],
+    "description": "PHP Superglobal $_POST"
+  },
+  "SE": {
+    "prefix": "SE",
+    "body": ["$_SERVER[$0];"],
+    "description": "PHP Superglobal $_SERVER"
+  },
+  "SESS": {
+    "prefix": "SESS",
+    "body": ["$_SESSION[$0];"],
+    "description": "PHP Superglobal $_SESSION"
+  },
+  "REQ": {
+    "prefix": "REQ",
+    "body": ["$_REQUEST[$0];"],
+    "description": "PHP Superglobal $_REQUEST"
+  },
+  "FI": {
+    "prefix": "FI",
+    "body": ["$_FILE[$0][$1];"],
+    "description": "PHP Superglobal $_FILET"
   }
 }
